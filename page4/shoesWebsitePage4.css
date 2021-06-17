@@ -62,12 +62,125 @@
     border-left: 1px solid rgb(74, 109, 227);
 }
 
+/* <!-- -----------top contact section---------- --> */
+.contact-section{
+    text-align: center;
+    padding: 2rem 0 7rem;
+    background-color: rgb(55, 82, 213);
+    color: white;
+}
+.contact-section h1{
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+
+.contact-section ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.contact-section ul li{
+   padding-right: 8px ;
+   list-style-type: none;
+   font-size: 14px;
+   opacity: .5;
+}
+
+
+
+
 /* <!-- -----------main body---------- --> */
 main{
-    height: 500px;
+    
     width: 100%;
+    background-color: white;
 
 }
+
+
+/* <!-- -----------Main Card---------- --> */
+.Main-card{
+    /* position:absolute; */
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white ;
+    /* transform: translate(150px,-59px); */
+}
+
+
+
+/* <!-- ----------- Card row1---------- --> */
+.card-row{
+width: 100%;
+height: 400px;
+background-image: url("../imges/cycle.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center right;
+/* background-attachment: fixed; */
+background-color: #464646;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: white;
+padding: 10rem 8rem 5rem;
+
+}
+.card-row p{
+   width:55px;
+font-size: 10px;
+background-color: blue;
+}
+.card-row2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-row2 h1{
+   font-size: 30px;
+   flex: .8;
+   font-weight: bold;
+   line-height: 1;
+
+}
+.card-row2-col2{
+    display: flex;
+    flex-direction: column-reverse;
+    list-style-type:none;
+    text-align: right;
+    
+}
+.card-row2-col2 li{
+   font-size: 10px;
+}
+
+/* <!-- -----------share icon---------- --> */
+.share-icon{
+    position:absolute;
+    float: right;
+}
+
+
+/* <!-- ----------- Card row2---------- --> */
+
+.card-row2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-row2-top{
+
+}
+
+
+
+
+
 
 
 
@@ -257,7 +370,19 @@ justify-content: space-between;
 .head-col3 i{
     padding: 15px;
 }
+
+
+ /* <!-- -----------top contact section---------- --> */
+.contact-section h1{
+    
+    font-size: 25px;
    
+}
+.contact-section ul li{
+   
+    font-size: 12px;
+   
+ } 
 
 /* <!-- -----------newsletter---------- --> */
 
@@ -353,6 +478,20 @@ justify-content: space-between;
     padding: 12px;
 }
 
+/* <!-- -----------top contact section---------- --> */
+.contact-section h1{
+    padding-right: 4rem;
+    font-size: 20px;
+   
+}
+.contact-section ul{
+    padding-right: 4rem;
+}
+.contact-section ul li{
+   
+    font-size: 10px;
+   
+ }
 
 /* <!-- -----------newsletter---------- --> */
 
